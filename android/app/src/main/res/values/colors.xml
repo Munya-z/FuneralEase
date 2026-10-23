@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+    <color name="dusk_ink">#1C1917</color>
+    <color name="dusk_ink_dark">#0C0A09</color>
+    <color name="warm_paper">#FAFAF8</color>
+    <color name="candlewick">#D97706</color>
+    <color name="ember">#DC2626</color>
+    <color name="sage">#16A34A</color>
+</resources>

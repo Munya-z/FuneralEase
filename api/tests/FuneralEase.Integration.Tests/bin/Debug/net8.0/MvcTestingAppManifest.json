@@ -1,0 +1,6 @@
+{
+  "FuneralEase.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/Users\/bonalukengu\/Projects\/me\/thuba_digital\/apps\/funeralease\/api\/src\/FuneralEase.Api",
+  "FuneralEase.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/Users\/bonalukengu\/Projects\/me\/thuba_digital\/apps\/funeralease\/api\/src\/FuneralEase.Application",
+  "FuneralEase.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/Users\/bonalukengu\/Projects\/me\/thuba_digital\/apps\/funeralease\/api\/src\/FuneralEase.Domain",
+  "FuneralEase.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/Users\/bonalukengu\/Projects\/me\/thuba_digital\/apps\/funeralease\/api\/src\/FuneralEase.Infrastructure"
+}

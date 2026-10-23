@@ -1,0 +1,123 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: var(--font-sans), system-ui, sans-serif;
+  }
+
+  ::selection {
+    background: rgba(229, 165, 79, 0.35);
+    color: #1c2431;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .hero-atmosphere {
+    background:
+      radial-gradient(ellipse 80% 60% at 50% -10%, rgba(229, 165, 79, 0.22), transparent 55%),
+      radial-gradient(ellipse 50% 40% at 85% 30%, rgba(94, 133, 113, 0.16), transparent 50%),
+      radial-gradient(ellipse 40% 35% at 10% 70%, rgba(166, 70, 32, 0.12), transparent 45%),
+      #1c2431;
+  }
+
+  .grain {
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.05'/%3E%3C/svg%3E");
+  }
+
+  /* 
+    box styles 
+  */
+
+  .rounded_bdr {
+    border-radius: 12px;
+  }
+
+  .rounded_bdr_inr {
+    border-radius: 6px;
+  }
+
+  /* 
+    Text styles
+  */
+
+  .main_font {
+    @apply font-serif;
+  }
+
+  .sec_font {
+
+    @apply font-mono;
+  }
+
+  .ter_font {
+    @apply font-sans;
+  }
+
+  .text_faded {
+    opacity: .8 !important;
+  }
+
+  .text_super_faded {
+    opacity: .4;
+  }
+
+  /* .main_heading_txt {
+    @apply main_font text-4xl font-semibold leading-[1.15] text-warm-paper text-balance sm:text-5xl lg:max-w-xl;
+  }
+
+  .main_sub_heading_txt_light {
+    @apply main_font text-3xl font-semibold max-w-lg text-balance text-warm-paper;
+  }
+
+  .main_sub_heading_txt_dark {
+    @apply main_font text-3xl font-semibold max-w-lg text-balance text-dusk-ink;
+  }
+
+
+  .small_sub_heading_txt_light {
+    @apply main_font text-xl font-semibold mb-2 text-warm-paper;
+  }
+
+  .small_sub_heading_txt_dark {
+    @apply main_font text-xl font-semibold mb-2 text-dusk-ink;
+  }
+
+  .sec_heading_txt_light {
+    @apply animate-fade-up sec_font text-xs uppercase tracking-[0.22em] text-candlewick;
+  }
+
+  .sec_heading_txt_dark {
+    @apply sec_font text-xs uppercase tracking-[0.2em] text-dusk-ink;
+  }
+
+  .norm_light_txt {
+    @apply mt-5 ter_font text-base leading-relaxed text-warm-paper max-w-md mx-auto lg:mx-0;
+  }
+
+  .norm_dark_txt {
+    @apply ter_font text-sm leading-relaxed text-dusk-ink max-w-md mx-auto;
+  }
+
+  .small_dark_txt {
+    @apply ter_font text-xs leading-relaxed text-dusk-ink;
+
+  }
+
+  .small_light_txt {
+    @apply ter_font text-xs leading-relaxed text-warm-paper;
+  } */
+}

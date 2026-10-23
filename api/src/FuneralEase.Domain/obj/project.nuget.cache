@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "6iypMJFEbTv95h8ekh9LLD/E4uUjgFcWcEKKYuRK25wvcQdxbt8PoLeSIhtS8y4leQZHFC8dTDnyZrLEqDNxIA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\padre\\Desktop\\funeralEase\\funeral-ease-main\\api\\src\\FuneralEase.Domain\\FuneralEase.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\padre\\.nuget\\packages\\mediatr\\12.4.1\\mediatr.12.4.1.nupkg.sha512",
+    "C:\\Users\\padre\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\padre\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

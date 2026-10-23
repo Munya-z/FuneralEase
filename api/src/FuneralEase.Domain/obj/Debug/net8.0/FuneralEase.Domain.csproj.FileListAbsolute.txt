@@ -1,0 +1,12 @@
+C:\Users\padre\Desktop\funeralEase\funeral-ease-main\api\src\FuneralEase.Domain\bin\Debug\net8.0\FuneralEase.Domain.deps.json
+C:\Users\padre\Desktop\funeralEase\funeral-ease-main\api\src\FuneralEase.Domain\bin\Debug\net8.0\FuneralEase.Domain.dll
+C:\Users\padre\Desktop\funeralEase\funeral-ease-main\api\src\FuneralEase.Domain\bin\Debug\net8.0\FuneralEase.Domain.pdb
+C:\Users\padre\Desktop\funeralEase\funeral-ease-main\api\src\FuneralEase.Domain\obj\Debug\net8.0\FuneralEase.Domain.csproj.AssemblyReference.cache
+C:\Users\padre\Desktop\funeralEase\funeral-ease-main\api\src\FuneralEase.Domain\obj\Debug\net8.0\FuneralEase.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\padre\Desktop\funeralEase\funeral-ease-main\api\src\FuneralEase.Domain\obj\Debug\net8.0\FuneralEase.Domain.AssemblyInfoInputs.cache
+C:\Users\padre\Desktop\funeralEase\funeral-ease-main\api\src\FuneralEase.Domain\obj\Debug\net8.0\FuneralEase.Domain.AssemblyInfo.cs
+C:\Users\padre\Desktop\funeralEase\funeral-ease-main\api\src\FuneralEase.Domain\obj\Debug\net8.0\FuneralEase.Domain.csproj.CoreCompileInputs.cache
+C:\Users\padre\Desktop\funeralEase\funeral-ease-main\api\src\FuneralEase.Domain\obj\Debug\net8.0\FuneralEase.Domain.dll
+C:\Users\padre\Desktop\funeralEase\funeral-ease-main\api\src\FuneralEase.Domain\obj\Debug\net8.0\refint\FuneralEase.Domain.dll
+C:\Users\padre\Desktop\funeralEase\funeral-ease-main\api\src\FuneralEase.Domain\obj\Debug\net8.0\FuneralEase.Domain.pdb
+C:\Users\padre\Desktop\funeralEase\funeral-ease-main\api\src\FuneralEase.Domain\obj\Debug\net8.0\ref\FuneralEase.Domain.dll

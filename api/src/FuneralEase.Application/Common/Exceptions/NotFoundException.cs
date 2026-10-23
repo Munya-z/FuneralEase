@@ -1,0 +1,4 @@
+namespace FuneralEase.Application.Common.Exceptions;
+
+public class NotFoundException(string name, object key)
+    : Exception($"'{name}' with key '{key}' was not found.");

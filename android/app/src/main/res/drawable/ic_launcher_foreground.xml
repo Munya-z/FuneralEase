@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Derived from Logo.tsx (ArchMark component)
+    SVG viewBox 0 0 40 48, scaled 1.5x and centered in 108x108 adaptive icon canvas.
+    Safe zone: inner 72dp (18dp padding each side).
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Arch / doorway outline -->
+    <path
+        android:fillColor="@android:color/transparent"
+        android:pathData="M30 90V51C30 35.26 40.74 24 54 24C67.26 24 78 35.26 78 51V90"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:strokeWidth="5.25" />
+
+    <!-- Base line -->
+    <path
+        android:fillColor="@android:color/transparent"
+        android:pathData="M25.5 90L82.5 90"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round"
+        android:strokeWidth="5.25" />
+
+    <!-- Flame / teardrop -->
+    <path
+        android:fillColor="#D97706"
+        android:pathData="M54 34.5C54 34.5 45.75 43.5 45.75 50.25C45.75 54.81 49.45 58.5 54 58.5C58.55 58.5 62.25 54.81 62.25 50.25C62.25 43.5 54 34.5 54 34.5Z" />
+
+    <!-- Keyhole slot -->
+    <path
+        android:fillColor="#D97706"
+        android:pathData="M54 56.25A2.625 2.625 0 0 1 56.625 58.875V61.125A2.625 2.625 0 0 1 54 63.75A2.625 2.625 0 0 1 51.375 61.125V58.875A2.625 2.625 0 0 1 54 56.25Z" />
+
+</vector>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="app" type="AndroidRunConfigurationType" factoryName="Android App" nameIsGenerated="true">
+    <module name="FuneralEase.app.main" />
+    <option name="STORE_FILE" value="" />
+    <option name="STORE_PASSWORD" value="" />
+    <option name="KEY_ALIAS" value="" />
+    <option name="KEY_PASSWORD" value="" />
+    <option name="SIGN_SAME_APK" value="false" />
+    <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+    <option name="FORCE_STOP_RUNNING_APP" value="true" />
+    <option name="INSPECTION_WITHOUT_ACTIVITY_RESTART" value="false" />
+    <DeployTargetContext>
+      <TargetSelectionState>
+        <option name="SELECTED_TARGET" value="SHOW_DIALOG" />
+      </TargetSelectionState>
+    </DeployTargetContext>
+    <Profiling>
+      <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+    </Profiling>
+    <method v="2">
+      <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+    </method>
+  </configuration>
+</component>

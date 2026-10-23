@@ -1,0 +1,19 @@
+# This is a generated file. Not intended for manual editing.
+services:
+  api:
+    build:
+      context: "/Users/bonalukengu/Projects/me/thuba_digital/apps/funeralease/api"
+      dockerfile: "src/FuneralEase.Api/Dockerfile"
+      target: "build"
+    command: []
+    entrypoint:
+    - "dotnet"
+    - "/app/bin/Debug/net8.0/FuneralEase.Api.dll"
+    environment: {}
+    image: "funeralease.api:dev"
+    ports: []
+    volumes:
+    - "/Users/bonalukengu/.nuget/packages:/root/.nuget/packages"
+    - "/Users/bonalukengu/Projects/me/thuba_digital/apps/funeralease/api/src/FuneralEase.Api:/app:rw"
+    - "/Users/bonalukengu/Projects/me/thuba_digital/apps/funeralease/api:/src:rw"
+    working_dir: "/app"

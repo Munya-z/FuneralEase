@@ -1,0 +1,43 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_DB: funeralease
+      POSTGRES_USER: funeralease
+      POSTGRES_PASSWORD: funeralease_dev
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U funeralease"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  api:
+    build:
+      context: .
+      dockerfile: src/FuneralEase.Api/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ConnectionStrings__DefaultConnection: "Host=postgres;Database=funeralease;Username=funeralease;Password=funeralease_dev"
+      Jwt__Secret: "dev-secret-min-32-chars-change-in-production!!"
+      Jwt__Issuer: "funeralease-api"
+      Jwt__Audience: "funeralease-clients"
+      Encryption__Key: "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA="
+      Anthropic__ApiKey: "${ANTHROPIC_API_KEY:-}"
+      Paystack__SecretKey: "${PAYSTACK_SECRET_KEY:-}"
+      Paystack__PublicKey: "${PAYSTACK_PUBLIC_KEY:-}"
+      Admin__StaffEmail: "${ADMIN_STAFF_EMAIL:-admin@funeralease.co.za}"
+      Admin__StaffPassword: "${ADMIN_STAFF_PASSWORD:-dev-admin-password}"
+      Admin__RequireTotp: "${ADMIN_REQUIRE_TOTP:-false}"
+      Admin__StaffTotp: "${ADMIN_STAFF_TOTP:-}"
+    ports:
+      - "5001:8080"
+    depends_on:
+      postgres:
+        condition: service_healthy
+
+volumes:
+  pgdata:

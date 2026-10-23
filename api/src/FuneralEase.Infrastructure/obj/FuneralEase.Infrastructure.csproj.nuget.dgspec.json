@@ -1,0 +1,238 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\padre\\Desktop\\funeralEase\\funeral-ease-main\\api\\src\\FuneralEase.Infrastructure\\FuneralEase.Infrastructure.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\padre\\Desktop\\funeralEase\\funeral-ease-main\\api\\src\\FuneralEase.Application\\FuneralEase.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\padre\\Desktop\\funeralEase\\funeral-ease-main\\api\\src\\FuneralEase.Application\\FuneralEase.Application.csproj",
+        "projectName": "FuneralEase.Application",
+        "projectPath": "C:\\Users\\padre\\Desktop\\funeralEase\\funeral-ease-main\\api\\src\\FuneralEase.Application\\FuneralEase.Application.csproj",
+        "packagesPath": "C:\\Users\\padre\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\padre\\Desktop\\funeralEase\\funeral-ease-main\\api\\src\\FuneralEase.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\padre\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\padre\\Desktop\\funeralEase\\funeral-ease-main\\api\\src\\FuneralEase.Domain\\FuneralEase.Domain.csproj": {
+                "projectPath": "C:\\Users\\padre\\Desktop\\funeralEase\\funeral-ease-main\\api\\src\\FuneralEase.Domain\\FuneralEase.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.10.0, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[11.10.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.4.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.11, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.131/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\padre\\Desktop\\funeralEase\\funeral-ease-main\\api\\src\\FuneralEase.Domain\\FuneralEase.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\padre\\Desktop\\funeralEase\\funeral-ease-main\\api\\src\\FuneralEase.Domain\\FuneralEase.Domain.csproj",
+        "projectName": "FuneralEase.Domain",
+        "projectPath": "C:\\Users\\padre\\Desktop\\funeralEase\\funeral-ease-main\\api\\src\\FuneralEase.Domain\\FuneralEase.Domain.csproj",
+        "packagesPath": "C:\\Users\\padre\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\padre\\Desktop\\funeralEase\\funeral-ease-main\\api\\src\\FuneralEase.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\padre\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.4.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.131/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\padre\\Desktop\\funeralEase\\funeral-ease-main\\api\\src\\FuneralEase.Infrastructure\\FuneralEase.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\padre\\Desktop\\funeralEase\\funeral-ease-main\\api\\src\\FuneralEase.Infrastructure\\FuneralEase.Infrastructure.csproj",
+        "projectName": "FuneralEase.Infrastructure",
+        "projectPath": "C:\\Users\\padre\\Desktop\\funeralEase\\funeral-ease-main\\api\\src\\FuneralEase.Infrastructure\\FuneralEase.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\padre\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\padre\\Desktop\\funeralEase\\funeral-ease-main\\api\\src\\FuneralEase.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\padre\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\padre\\Desktop\\funeralEase\\funeral-ease-main\\api\\src\\FuneralEase.Application\\FuneralEase.Application.csproj": {
+                "projectPath": "C:\\Users\\padre\\Desktop\\funeralEase\\funeral-ease-main\\api\\src\\FuneralEase.Application\\FuneralEase.Application.csproj"
+              },
+              "C:\\Users\\padre\\Desktop\\funeralEase\\funeral-ease-main\\api\\src\\FuneralEase.Domain\\FuneralEase.Domain.csproj": {
+                "projectPath": "C:\\Users\\padre\\Desktop\\funeralEase\\funeral-ease-main\\api\\src\\FuneralEase.Domain\\FuneralEase.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Google.Cloud.Storage.V1": {
+              "target": "Package",
+              "version": "[4.10.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.4.1, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.11, )"
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[8.0.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.131/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
